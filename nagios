@@ -1,6 +1,6 @@
 server {
   listen   80;
-  server_name  backup-server.pefer.cl;
+  server_name  nagios.domain.com;
  
   access_log  /var/log/nginx/nagios.access.log;
   error_log   /var/log/nginx/nagios.error.log info;
